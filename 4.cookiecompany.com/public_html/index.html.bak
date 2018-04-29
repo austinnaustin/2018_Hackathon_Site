@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Welcome to CookieCompany.com!</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+  </head>
+  <body>
+    <h1>Level 8</h1>
+	<img src="img.jpeg">
+<form action="/action_page.php">
+  User name:<br>
+  <input type="text" name="butter" value="butter">
+  <br>
+  Password:<br>
+  <input type="text" name="password" value="">
+  <br><br>
+  <input id="prodId" name="prodId" type="hidden" value="CLhPy38yfP5N">
+</form> 
+
+  </body>
+<!--This form is useless... -->
+</html>
