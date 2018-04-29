@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Welcome to CookieCompany.com!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+<!-- chocolate    :  	3UKYFrGZ7b5M-->
+  <body>    <h1>Level 1</h1>
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse.
+    * There is nothing hidden in the script. It is simply to make it more difficult to view the source. :)
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+
+ 
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+
+	<img src="img.jpeg">
+  </body>
+<!-- chocolate    :  	3UKYFrGZ7b5M-->
+</html>
