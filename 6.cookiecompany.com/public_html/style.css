@@ -1,0 +1,23 @@
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom right, white, grey, black);
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+form{
+	text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
